@@ -1,0 +1,11 @@
+{
+    "name": "fewagency/videoposter",
+    "description": "Craft plugin to extract poster from Youtube and Vimeo videos",
+    "type": "craft-plugin",
+    "authors": [
+        {
+            "name": "FEW",
+            "email": "developers@fewagency.se"
+        }
+    ]
+}
