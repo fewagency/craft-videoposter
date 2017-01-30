@@ -1,7 +1,10 @@
 {
-    "name": "fewagency/videoposter",
+    "name": "fewagency/craft-videoposter",
     "description": "Craft plugin to extract poster from Youtube and Vimeo videos",
     "type": "craft-plugin",
+    "extra": {
+        "installer-name": "videoposter"
+    }",
     "authors": [
         {
             "name": "FEW",
