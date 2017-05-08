@@ -42,7 +42,8 @@ class VideoPosterVariable
 
     public function getPoster($url)
     {
-        if (strpos($url, 'youtube') > 0) {
+        $videoPoster = null;
+        if (strpos($url, 'youtu') > 0) {
             $videoPoster = $this->parseYouTubeURL($url);
         } elseif (strpos($url, 'vimeo') > 0) {
             $videoPoster = $this->parseVimeoURL($url);
